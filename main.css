@@ -1,0 +1,153 @@
+/* body {
+    background: #000;
+} */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background 200ms;
+    -o-transition: background 200ms;
+    transition: background 200ms
+    /* background: rgba(0, 0, 0, .1); */
+}
+
+body {
+    font-size: 14px;
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear-float:before,
+.clear-float:after {
+    content: " ";
+    display:  block;
+    clear: both;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9 {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+.col-1 {
+    width: 10%;
+}
+
+.col-2 {
+    width: 20%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-5 {
+    width: 50%;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+.col-7 {
+    width: 70%;
+}
+
+.col-8 {
+    width: 80%;
+}
+
+.col-9 {
+    width: 90%;
+}
+
+.top-nav {
+    background: #eee;
+}
+
+.top-nav .item {
+    display: inline-block;
+    padding: 6px 10px;
+    color: #666;
+}
+
+.top-nav .item:hover {
+    color: #111;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-size: 30px;
+}
+.header .searchBar {
+    border: 2px 2px solid #dd1823;
+    background: #dd182b;
+}
+
+.header .searchBar input,
+.header .searchBar button {
+    display: block;
+    float: left;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+}
+
+.header .searchBar input {
+    width: 80%;
+}
+
+.header .searchBar input:focus{
+    -webkit-box-shadow: inset 0 0 2px 2px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,.3);
+}
+
+.header .searchBar button {
+    width: 20%;
+    background: #dd182b;
+    color: #fff;
+}
+
+.header .searchBar button:hover {
+    background:#ce5039;
+}
+
+
+
+/* p {
+    width: 25%;
+    float: left;
+} */
+
